@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:hint="Id"/>
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/getByidStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getByIdStock" />
+
+        <Button
+            android:id="@+id/getAllStock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getAllStock"/>
+    <Button
+        android:id="@+id/getAllNameStock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getAllNamStock"/></TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/getAllPrice150"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getAllPrice150"/>
+        <Button
+            android:id="@+id/CountAndPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count"/>
+        <Button
+            android:id="@+id/getAccountingByStockId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AllAccountingByStock"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/getStockByAccountingId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getStockByAccountingId"/>
+        <Button
+            android:id="@+id/getAllAccounting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getAllAccounting"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/getByNameA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getByNameA"/>
+        <Button
+            android:id="@+id/getByDefective"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getByDefective"/>
+
+    </TableRow>
+</LinearLayout>
